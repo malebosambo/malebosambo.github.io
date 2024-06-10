@@ -1,85 +1,13 @@
-@media (max-width: 768px) {  /* styles for devices with max width of 768px */
-  
-  h1 {
-    font-size: 30px;
-  }
-
-  .Card-Container {
-    height: 288px;
-    width: 50%;
-  }
-
-  .Header {
-    background-color: azure;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-
-  .Logo, p {
-    font-size: 15px;
-    font-weight: bold;
-  }
-
-  .Menu, a {
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  .MenuOpen {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-
-  .MobileButton {
-    border: 2px solid black;
-    padding: 5px;
-  }
-
-  .Repo-List {
-    overflow-x: auto;
-  }
+@media only screen and (max-width: 600px) {  /* styles for devices with max width of 600px */
 
 }
 
-@media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */}
+@media only screen and (max-width: 768px) {  /* styles for devices with max width of 768px */}
 
-@media (max-width: 1200px) {  /* styles for devices with max width of 1200px */
+@media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */
 
-  h1 {
-    font-size: 50px;
-  }
+}
 
-  .CV-intro {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-  }
-
-  .CV-Overview {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-  }
-
-  .Footer {
-    display: flex;
-  }
-
-  .Header {
-    background-color: azure;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-  }
-
-  .Menu, a {
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-  }
+@media only screen and (max-width: 1400px) {
 
 }
