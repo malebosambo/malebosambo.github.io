@@ -1,13 +1,81 @@
 @media only screen and (max-width: 600px) {  /* styles for devices with max width of 600px */
+    
+    .Avatar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Content {
+        margin: 40px 0;
+    }
+    
+    .Overview {
+        align-items: center;
+        background-color: sandybrown;
+        padding: 35px 30px;
+        text-align: center;
+    }
+
+    .Overview > .Profile {
+        margin: 20px 0;
+    }
+
+    .Overview > .Socials, a {
+        margin: 0 10px;
+    }
+
+    .Repo-List {
+        padding: 0 10px;
+    }
+
+    .TableResponse {
+        overflow-x: auto;
+    }
 
 }
 
-@media only screen and (max-width: 768px) {  /* styles for devices with max width of 768px */}
+@media only screen and (max-width: 768px) {  /* styles for devices with max width of 768px */
+    
+    .Avatar {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .CV-Overview {
+        align-items: center;
+        background-color: sandybrown;
+        padding: 35px 30px;
+    }
+
+    .Repo-List {
+        padding: 20px;
+    }
+
+    .Services {
+        margin: 50px 0;
+    }
+
+    .TableResponse {
+        overflow-x: auto;
+    }
+        
+}
 
 @media only screen and (max-width: 992px) {  /* styles for devices with max width of 992px */
 
+    .CV-Overview {
+        padding: 40px;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
 
+    .CV-Overview {
+        background-color: sandybrown;
+        padding: 50px;
+    }
+
+    .Repo-List {
+        padding: 50px;
+    }
 }
