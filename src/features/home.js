@@ -4,7 +4,6 @@ import ContentItem from './contentItem';
 import RepoTable from './repoTable';
 import RepoCard from './repoCard';
 
-
 export default function Home() {
 
   const [repos,setRepos] = useState([]);
@@ -42,7 +41,7 @@ export default function Home() {
 
       <div className="Overview">
         <div className="Avatar text-center">
-          <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" />
+          <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" style={{ borderRadius: 50 }} />
         </div>
         <div className="Profile">
           <br />
@@ -57,7 +56,7 @@ export default function Home() {
         </div>
         <div className="Online">
           <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
-          <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Icon" /></a>
+          <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub" className="Icon" /></a>
           <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
         </div>
       </div>
@@ -75,7 +74,7 @@ export default function Home() {
         <div style={{paddingBottom: "30px", textAlign: "center" }}><h1>Repositories</h1></div>
         <div className="Repo_Table"><RepoTable /></div>
         <div className="Repo_Cards">{repos.map((repo) => <RepoCard name={repo.name} description={repo.description} issues={repo.open_issues_count} link={repo.url} />)}</div>
-      </div>
+      </div> 
         
     </main>
   )

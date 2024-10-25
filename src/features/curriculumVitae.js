@@ -9,7 +9,7 @@ export default function CurriculumVitae() {
         <div className="CV_Contacts">
           <div className="CV_Overview">
             <div className="Avatar text-center">
-              <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" />
+              <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" style={{ borderRadius: 50 }} />
             </div>
             <div className="Profile">
               <br />
@@ -24,7 +24,7 @@ export default function CurriculumVitae() {
             </div>
             <div className="Online">
               <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn Icon" className="Icon" /></a>
-              <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub Icon" className="Icon" /></a>
+              <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub Icon" className="Icon" /></a>
               <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter Icon" className="Icon" /></a>
             </div>  
           </div>
@@ -48,8 +48,6 @@ export default function CurriculumVitae() {
             <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Social_Logo" /></a>
           </div>
         </div>
-
-        <hr />
 
         <div className="CV_Body">
           <div className="CV_Section1">

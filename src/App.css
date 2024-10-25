@@ -13,6 +13,11 @@
     flex-direction: column;
   }
 
+  .CV_Body {
+    background-color: grey;
+    padding: 10px;
+  }
+
   .CV_About, .CV_Education, .CV_Softskills, .CV_Hardskills, .CV_Employment, .CV_Achievements {
     margin-bottom: 30px;
   }
@@ -27,10 +32,6 @@
 
   .CV_Contacts {
     margin-bottom: 50px;
-  }
-
-  .CV_Overview {
-    
   }
 
   .Footer {
@@ -162,10 +163,6 @@
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {  /* styles for devices with max width of 768px */
 
-  .Avatar {
-    align-items: center;
-  }
-
   .Basic_Details {
     padding: 20px 0;
   }
@@ -215,7 +212,6 @@
   .Header {
     display: flex;
     flex-direction: column;
-    padding: 15px;
   }
 
   .Icon {
@@ -270,6 +266,10 @@
     text-align: center;
   }
 
+  .Repo_Cards {
+    padding: 20px;
+  }
+
   .Repo_List {
     padding: 40px 20px;
   }
@@ -283,11 +283,27 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   h2 {
     font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 20px;
   }
 
   p {
