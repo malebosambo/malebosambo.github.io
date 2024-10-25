@@ -15,7 +15,7 @@ export default function ContentItem({ image, name, list, link }) {
           <hr/>
           <div>
             <ul>
-            {list.map((op) => <li key={op}>{op}</li>)}
+            {list.map((op) => <li key={op}><p>{op}</p></li>)}
             </ul>
           </div>
         </div>

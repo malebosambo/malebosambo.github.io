@@ -29,23 +29,17 @@ export default function CurriculumVitae() {
             </div>  
           </div>
           <div className="CV_Email">
-            <img src="Email.png" alt="Email Icon" className="Icon" />
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a>
-            </div>
+            <div style={{ display: "flex", flexDisplay: "row", backgroundColor: "grey" }}><img src="Email.png" alt="Email Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Email</h4></div>
+            <div style={{ backgroundColor: "sandybrown" }}><a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a></div>
           </div>
           <div className="CV_Phone">
-            <img src="Telephone.png" alt="Telephone Icon" className="Icon" />
-            <div>
-              <h4>Phone Number</h4>
-              <a href="tel:+27630013711"><p>+27 63 001 3711</p></a>
-            </div>
+            <div style={{ display: "flex", flexDisplay: "row" }}><img src="Telephone.png" alt="Telephone Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Phone Number</h4></div>
+            <div><a href="tel:+27630013711"><p>+27 63 001 3711</p></a></div>
           </div>
           <div className="CV_Socials">
-            <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Social_Logo" /></a>
-            <a href="www.github.com/sambomalebo"><img src="./Github.png" alt="GitHub" className="Social_Logo" /></a>
-            <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Social_Logo" /></a>
+            <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
+            <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub" className="Icon" /></a>
+            <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
           </div>
         </div>
 

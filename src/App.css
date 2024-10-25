@@ -174,7 +174,6 @@
   .CV {
     display: flex;
     flex-direction: column;
-    padding: 30px;
   }
 
   .CV_Email, .CV_Phone, .CV_Socials {
@@ -182,11 +181,16 @@
   }
 
   .CV_About, .CV_Education, .CV_Softskills, .CV_Hardskills, .CV_Experience {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   .CV_Avatar {
     display: none;
+  }
+
+  .CV_Body {
+    background-color: grey;
+    padding: 20px;
   }
 
   .CV_Contacts {
@@ -364,8 +368,8 @@
     width: 100%;
   }
 
-  .CV_Contacts > .CV_Email, .CV_Phone, .CV_Socials {
-    width: 30%;
+  .CV_Contacts > .CV_Email, .CV_Phone {
+    width: 40%;
   }
 
   .CV_Hardskills {
@@ -471,9 +475,9 @@
 
   p {
     color: black;
-    font-size: 19px;
+    font-size: 18px;
   }
-
+/*
   table {
     border-collapse: collapse;
     border: 2px solid grey;
@@ -491,7 +495,7 @@
   td {
     background-color: azure;
   }
-
+*/
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1400px) {  /* styles for devices with max width of 1200px */
@@ -523,9 +527,9 @@
     width: 100%;
   }
 
-  .CV_Contacts > .CV_Email, .CV_Phone, .CV_Socials {
-    width: 30%;
-  }
+  .CV_Email {
+    width: 40%;
+  } 
 
   .CV_Hardskills {
     padding: 25px;
@@ -533,6 +537,10 @@
 
   .CV_Overview {
     display: none;
+  }
+
+  .CV_Phone {
+    width: 40%;
   }
 
   .CV_Section1 {
@@ -547,6 +555,10 @@
   .CV_Section3 {
     padding: 25px;
     width: 30%;
+  }
+
+  .CV_Socials {
+    width: 20%;
   }
 
   .Footer {
@@ -630,7 +642,7 @@
 
   p {
     color: black;
-    font-size: 20px;
+    font-size: 19px;
   }
 
   table {
