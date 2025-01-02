@@ -4,7 +4,6 @@ import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae'; 
 import Repositories from './features/repositories';
 import ViewRepo from './features/viewRepo';
-import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
@@ -94,21 +93,7 @@ export function ViewRepository() {
     </div>
   )
 }
-
-export function RepoIssues() {
-  return (
-    <div>
-      <div>
-        <Header />
-      </div> 
-      <Issues />
-      <div>
-        <Footer />
-      </div>  
-    </div>
-  )
-}
-
+        
 export function Contacts() {
   return (
     <div>
