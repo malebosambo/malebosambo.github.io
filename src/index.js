@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { App, CVresume, Repos, ViewRepository, RepoIssues, Contacts } from './App';
+import { App, CVresume, Repos, ViewRepository, Contacts } from './App';
 import {
   BrowserRouter,
   Routes,
@@ -19,7 +19,6 @@ root.render(
         <Route path="/cv-resume" element={<CVresume />} />
         <Route path="/repos" element={<Repos />} />
         <Route path="/view-repo" element={<ViewRepository />} />
-        <Route path="/issues" element={<RepoIssues />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </BrowserRouter>
