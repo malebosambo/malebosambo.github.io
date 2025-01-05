@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="Footer">
         <div className="Legal">
           <h3>Legal</h3><br />
-          <p>Copyright © 2024. Malebo Sambo. All rights reserved.</p><br />
+          <p>Copyright © 2025. Malebo Sambo. All rights reserved.</p><br />
         </div>
 
         <div className="Contacts">
@@ -24,6 +24,14 @@ export default function Footer() {
           <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
           <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub" className="Icon" /></a>
           <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
+        </div>
+
+        <div className="Hot_Links">
+          <h3>Links</h3><br />
+          <Link to="/"><p>Home</p></Link>
+          <Link to="/cv-resume"><p>CV</p></Link>
+          <Link to="/repos"><p>Repos</p></Link>
+          <Link to="/contacts"><p>Contacts</p></Link>
         </div>
       </div>
     </>
