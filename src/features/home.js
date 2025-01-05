@@ -45,20 +45,22 @@ export default function Home() {
         </div>
         <div className="Profile">
           <div className="Personal">
-            <br />
-            <h1>Malebo Sambo</h1><br />
-            <h5>Founder, CEO, CTO, Business Analyst</h5><br />
-            <img src="Email.png" alt="Email Icon" className="Icon" />
-            <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a><br />
-            <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
-            <a href="tel:+27630013711"><p>+27630013711</p></a><br />
-            <img src="./Location.png" alt="Location Icon" className="Icon" />
-            <p>South Africa</p><br />
-          </div>
-          <div className="Online">
-            <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
-            <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub" className="Icon" /></a>
-            <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
+            <div className="Personal_Details">
+              <br />
+              <h1>Malebo Sambo</h1><br />
+              <h5>Founder, CEO, CTO, Business Analyst</h5><br />
+              <img src="Email.png" alt="Email Icon" className="Icon" />
+              <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a><br />
+              <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
+              <a href="tel:+27630013711"><p>+27630013711</p></a><br />
+              <img src="./Location.png" alt="Location Icon" className="Icon" />
+              <p>South Africa</p><br />
+            </div>
+            <div className="Online">
+              <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
+              <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub" className="Icon" /></a>
+              <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
+            </div>
           </div>
         </div>
       </div>
