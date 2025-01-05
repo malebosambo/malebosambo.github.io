@@ -439,11 +439,11 @@
 
   .Profile {
     text-align: center;
-    width: 50%;
+    width: 60%;
   }
 
   .Online {
-    width: 10%;
+    
   }
 
   .Overview {
@@ -619,9 +619,19 @@
     width: 100%;
   }
 
+  .Personal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Personal_Details {
+    width: 90%;
+  }
+
   .Profile {
     padding-left: 10px;
-    width: 50%;
+    width: 60%;
   }
 
   .Repo_Banner {
