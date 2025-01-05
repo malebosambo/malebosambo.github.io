@@ -568,9 +568,9 @@
     width: 100%;
   }
 
-  .Footer > .Legal, .Contacts, .Socials {
-    padding: 20px;
-    width: 33%;
+  .Footer > .Legal, .Contacts, .Socials, .Hot_Links {
+    padding: 10px;
+    width: 25%;
   }
 
   .Header {
@@ -578,6 +578,11 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 50px;
+  }
+
+  .Hot_Links {
+    display: flex;
+    flex-direction: column;
   }
 
   .Icon {
