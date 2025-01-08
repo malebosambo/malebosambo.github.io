@@ -41,8 +41,14 @@
     padding: 20px;
   }
 
-  .Footer > .Legal, .Contacts, .Socials {
+  .Footer > .Legal, .Contacts, .Socials, .Hot_Links {
     text-align: center;
+  }
+
+  .Footer_Hot_Links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   }
 
   .Header {

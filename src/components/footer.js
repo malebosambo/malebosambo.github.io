@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 export default function Footer() {
@@ -26,7 +27,7 @@ export default function Footer() {
           <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
         </div>
 
-        <div className="Hot_Links">
+        <div className="Footer_Hot_Links">
           <h3>Links</h3><br />
           <Link to="/"><p>Home</p></Link>
           <Link to="/cv-resume"><p>CV</p></Link>
