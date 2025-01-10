@@ -33,8 +33,8 @@ export default function CurriculumVitae() {
             <div style={{ backgroundColor: "sandybrown" }}><a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a></div>
           </div>
           <div className="CV_Phone">
-            <div style={{ display: "flex", flexDisplay: "row" }}><img src="Telephone.png" alt="Telephone Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Phone Number</h4></div>
-            <div><a href="tel:+27630013711"><p>+27 63 001 3711</p></a></div>
+            <div style={{ display: "flex", flexDisplay: "row", backgroundColor: "grey" }}><img src="Telephone.png" alt="Telephone Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Phone Number</h4></div>
+            <div style={{ backgroundColor: "sandybrown" }}><a href="tel:+27630013711"><p>+27 63 001 3711</p></a></div>
           </div>
           <div className="CV_Socials">
             <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
@@ -46,14 +46,14 @@ export default function CurriculumVitae() {
         <div className="CV_Body">
           <div className="CV_Section1">
             <div className="CV_About">
-              <h2>Personal Summary</h2><br />
+              <div style={{ backgroundColor: "grey" }}><h2>Personal Summary</h2></div><br />
               <p>I am an IT professional with experience in both Software and Mobile App Development, Quality Assuarance (QA), Research & Development (R&D) Analysis, and Business Analysis (BA). </p><br />
               <p>I have skills and experience as a Operations Manager for SMMEs in the IT sector, I also provide organizational culture and business model development expertise.</p><br />
               <p>I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.</p>
             </div>
 
             <div className="CV_Education">
-              <h2>Education Background</h2><br />
+              <div style={{ backgroundColor: "grey" }}><h2>Education Background</h2></div><br />
               <div>
                 <p>2010-2014</p>
                 <p>National Senior Certificate</p>
@@ -67,7 +67,7 @@ export default function CurriculumVitae() {
             </div>
 
             <div className="CV_Softskills">
-              <h2>Soft Skills</h2><br />
+              <div style={{ backgroundColor: "grey" }}><h2>Soft Skills</h2></div><br />
               <ul>
                 <li><p>Communication (Verbal/Written)</p></li>
                 <li><p>Collaborator</p></li>
@@ -95,7 +95,7 @@ export default function CurriculumVitae() {
 
           <div className="CV_Section3">
             <div className="CV_Employment">
-              <h2>Employment Experience</h2><br />
+              <div style={{ backgroundColor: "grey" }}><h2>Employment Experience</h2></div><br />
               <div>
                 <p>2021-2022</p>
                 <p>Social Impact Platform Specialist</p>
@@ -133,7 +133,7 @@ export default function CurriculumVitae() {
               </div>              
             </div>
             <div className="CV-Achievements">
-              <h2>Achievements</h2><br />
+              <div style={{ backgroundColor: "grey" }}><h2>Achievements</h2></div><br />
               <div>
                 <p>2016</p>
                 <p>2nd Place Winners</p>
