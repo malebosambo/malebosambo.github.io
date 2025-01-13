@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "file-uri-to-path": "1.0.0",
+    "gh-pages": "^6.3.0",
     "nan": "2.17.0",
     "octokit": "^3.1.1",
     "react": "^18.2.0",

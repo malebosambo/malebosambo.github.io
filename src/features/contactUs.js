@@ -17,7 +17,7 @@ export default function ContactUs() {
       </div>
     
       <div>
-        <form action={SubmitForm}>
+        <form>
           <input type="text" placeholder="First" />
           <input type="text" placeholder="Last" />
           <input type="email" placeholder="Email" />
