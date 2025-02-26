@@ -4,6 +4,30 @@ import '../styles/curriculumVitae.css';
 export default function CurriculumVitae() {
   return (
     <>
+      <main className="CV">
+
+        <div className="CV_Contacts">
+          <div className="CV_Overview">
+            <div className="Avatar text-center">
+              <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" style={{ borderRadius: 50 }} />
+            </div>
+            <div className="Profile">
+              <br />
+              <h1>Malebo Sambo</h1><br />
+              <h4>Founder, CEO, CTO, Business Analyst</h4><br />
+              <img src="Email.png" alt="Email Icon" className="Icon" />
+              <a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a><br />
+              <img src="./Telephone.png" alt="Telephone Icon" className="Icon" />
+              <a href="tel:+27630013711"><p>+27630013711</p></a><br />
+              <img src="./Location.png" alt="Location Icon" className="Icon" />
+              <p>South Africa</p><br />
+            </div>
+            <div className="Online">
+              <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn Icon" className="Icon" /></a>
+              <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub Icon" className="Icon" /></a>
+              <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter Icon" className="Icon" /></a>
+            </div>  
+
       <div>
         <div>
           <div className="CV-avatar">
@@ -15,30 +39,34 @@ export default function CurriculumVitae() {
             <img alt="" />
             <h6>Email</h6>
             <p>sambo.malebo96@gmail.com</p>
+
           </div>
-          <div className="CV-phone">
-            <img alt="" />
-            <h6>Phone Number</h6>
-            <p>+27 63 001 3711</p>
+          <div className="CV_Email">
+            <div style={{ display: "flex", flexDisplay: "row", backgroundColor: "grey" }}><img src="Email.png" alt="Email Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Email</h4></div>
+            <div style={{ backgroundColor: "sandybrown" }}><a href="mailto:sambo.malebo96@gmail.com"><p>sambo.malebo96@gmail.com</p></a></div>
           </div>
-          <div className="CV-socials">
-            <a href=""><img src="" alt="" /></a>
-            <a href=""><img src="" alt="" /></a>
-            <a href=""><img src="" alt="" /></a>
-            <a href=""><img src="" alt="" /></a>
+          <div className="CV_Phone">
+            <div style={{ display: "flex", flexDisplay: "row", backgroundColor: "grey" }}><img src="Telephone.png" alt="Telephone Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Phone Number</h4></div>
+            <div style={{ backgroundColor: "sandybrown" }}><a href="tel:+27630013711"><p>+27 63 001 3711</p></a></div>
+          </div>
+          <div className="CV_Socials">
+            <a href="www.linkedin.com/malebosambo"><img src="./Linkedin.png" alt="LinkedIn" className="Icon" /></a>
+            <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub" className="Icon" /></a>
+            <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter" className="Icon" /></a>
           </div>
         </div>
 
-        <div>
-          <div className="CV-section1">
-            <div className="CV-about">
-              <h6>Personal Summary</h6>
-              <p>I am a professional with experience in Software and Mobile App Development, Business Analysis, Research & Development, and SMME Operations Management. The experience and learnings that I have acquired, gives me the skills and knowledge to conduct quality work.</p><br />
-
+        <div className="CV_Body">
+          <div className="CV_Section1">
+            <div className="CV_About">
+              <div style={{ backgroundColor: "grey" }}><h2>Personal Summary</h2></div><br />
+              <p>I am an IT professional with experience in both Software and Mobile App Development, Quality Assuarance (QA), Research & Development (R&D) Analysis, and Business Analysis (BA). </p><br />
+              <p>I have skills and experience as a Operations Manager for SMMEs in the IT sector, I also provide organizational culture and business model development expertise.</p><br />
               <p>I possess great personal characteristics that assist me to work with diverse and incredible private and public sector individuals to deliver projects and initiatives.</p>
             </div>
-            <div className="CV-education">
-              <h6>Education</h6>
+
+            <div className="CV_Education">
+              <div style={{ backgroundColor: "grey" }}><h2>Education Background</h2></div><br />
               <div>
                 <p>2010-2014</p>
                 <p>National Senior Certificate</p>
@@ -50,64 +78,83 @@ export default function CurriculumVitae() {
                 <p>OutSystems</p>
               </div>
             </div>
-            <div className="CV-softskills">
-              <h6>Soft Skills</h6>
+
+            <div className="CV_Softskills">
+              <div style={{ backgroundColor: "grey" }}><h2>Soft Skills</h2></div><br />
               <ul>
-                <li>Communication (Verbal/Written)</li>
+                <li><p>Communication (Verbal/Written)</p></li>
+                <li><p>Collaborator</p></li>
               </ul>
             </div> 
           </div>
+
+
+          <div className="CV_Section2">
+            <div className="CV_Avatar">
+              <img src="./Malebo-Sambo.png" alt="Avatar" />
+              <h1>Malebo Sambo</h1>
+              <h3>Software Developer/Engineer</h3>
 
           <div className="CV-section2">
             <div className="CV-avatar">
               <img src="./CVAvatar.jpg" alt="avatar" className="Avatar" />
               <h5>Malebo Sambo</h5>
               <h6>Software Developer</h6>
+
             </div>
-            <div className="CV-hardskills">
-              <h6>Hard Skills</h6>
+            <div className="CV_Hardskills">
+              <h2>Hard Skills</h2><br />
               <ul>
-                <li>OutSystems Developer</li>
+                <li><p>OutSystems Reactive Developer</p></li>
+                <li><p>MERN/Next.js Developer</p></li>
+                <li><p>C# Developer (Blazor)</p></li>
+                <li><p>WordPress Developer</p></li>
+                <li><p>Flutter Mobile App Developer</p></li>
               </ul>
             </div>
           </div>
 
-          <div className="CV-section3">
-            <div className="CV-employment">
-              <h6>Experience</h6>
+          <div className="CV_Section3">
+            <div className="CV_Employment">
+              <div style={{ backgroundColor: "grey" }}><h2>Employment Experience</h2></div><br />
               <div>
                 <p>2021-2022</p>
                 <p>Social Impact Platform Specialist</p>
                 <p>ExoFutures</p>
               </div>
+              <hr />
               <div>
                 <p>2020-2021</p>
                 <p>Tester/Business Analyst/Mobile Developer</p>
                 <p>ExoSystems</p>
               </div>
+              <hr />
               <div>
                 <p>2019-2020</p>
                 <p>OutSystems Platform Internship Trainee</p>
                 <p>ExoSystems</p>
               </div>
+              <hr />
               <div>
                 <p>2018</p>
                 <p>Operations Manager</p>
                 <p>Tree Tech Academy</p>
               </div>
+              <hr />
               <div>
                 <p>2017-2018</p>
                 <p>Dispatch Assistant</p>
                 <p>CTM Montague Gardens</p>
               </div>
+              <hr />
               <div>
                 <p>2016-2017</p>
                 <p>Operations Manager</p>
                 <p>Tree Tech Academy</p>
               </div>              
             </div>
-            <div className="CV-achievements">
-              <h6>Achievements</h6>
+            <div className="CV-Achievements">
+              <div style={{ backgroundColor: "grey" }}><h2>Achievements</h2></div><br />
               <div>
                 <p>2016</p>
                 <p>2nd Place Winners</p>
@@ -116,61 +163,7 @@ export default function CurriculumVitae() {
             </div>
           </div>
         </div>
-      </div>
-
-      {/*
-      <div className="CV-intro">
-        <div className="avatar">
-          <h1>Malebo Sambo</h1>
-          <img src="./CVAvatar.jpg" />
-        </div>
-
-        <div className="Contact-details">
-          <h4>Contact Details</h4><br/>
-          <p>Preferred Method</p><br/>
-          <p>Cellphone: 0630013711</p><br/>
-          <p>Alternative Method</p><br/>
-          <p>Email: sambo.malebo96@gmail.com</p><br/>
-          <p>Social Accounts</p><br/>
-          <p>LinkedIn: <span><a href="">Malebo Sambo</a></span></p>
-        </div>
-      </div>
-    
-      <div className="CV-Body-1">
-        <div className="column1">
-          <div className="accordion" id="accordionColumn1">
-    
-            <div className="accordion-item address-details">
-              <h2 className="accordion-header">
-                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse one">Address Details</button>
-              </h2>
-              <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionColumn1">
-                <div className="accordion-body">
-                </div>
-              </div>
-            </div>
-      
-            <div className="accordion-item education-details">
-              <h2 className="accordion-header">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapse Two">Education Details</button>
-              </h2>
-              <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionColumn1">
-                <div className="accordion-body">
-                </div>
-              </div>
-            </div>
-    
-          </div>
-        </div>
-
-        <div className="column2">
-          <div className="personal-details">
-          </div>
-          <div className="specializations">
-          </div>
-        </div>
-      </div>
-      */}
+      </main>
     </>
   )
 }

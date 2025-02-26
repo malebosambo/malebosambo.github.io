@@ -1,15 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
-export default function RepoItem({ id, name, description, date, topics }) {
+export default function RepoItem({ id, name, description, date, topics, link }) {
 
   return (
     <>
       <tr key={id}>
-        <td>{name}</td>
-        <td>{description}</td>
-        <td>{date}</td>
-        <td>{topics}</td>
+        <td><a target="_blank" rel="noopener noreferrer" href={link} ><p>{name}</p></a></td>
+        <td><p>{description}</p></td>
+        <td><p>{date}</p></td>
+        <td><p>{topics}</p></td>
       </tr>
     </>
   )

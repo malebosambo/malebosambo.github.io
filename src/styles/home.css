@@ -1,23 +1,12 @@
-body {
-  background-color: silver;
-}
-
-.Basic-Details {
-  padding: 20px;
-}
-
 .Container {
   margin: 0 auto;
   width: 100%;
 }
 
-.CV-Overview {
-  background-color: white;
-  margin-bottom: 50px;
+.Content {
+  background-color: silver;
 }
 
-.Repo-List {
-  background-color: white;
-  margin-top: 50px;
-  padding: 30px 10px;
+.CV-Overview > h1 {
+  font-family: Pacifico;
 }

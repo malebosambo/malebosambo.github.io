@@ -1,7 +1,7 @@
 <h1>Malebo Sambo CV & Portfolio</h1>
 
 <ul>
-  <li>Node.js + React.js Application</li>
-  <li>Codespaces Development Environment</li>
-  <li>Consumes GitHub APIs</li>
+  <li>React.js Application</li>
+  <li>Development environment runs on GitHub Codespaces.</li>
+  <li>Production environment runs on Vercel</li>
 </ul>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect} from 'react';
 import RepoItem from './repoItem';
-import '../styles/latestIssues.css';
 import '../App.css';
 
 export default function RepoTable() {
@@ -20,8 +19,8 @@ export default function RepoTable() {
 
   return (
     <>
-      <div className="TableResponse">
-        <table>
+      <div className="Table_Response">
+        <table className="table">
           <thead>
             <tr>
               <th>Name</th>
@@ -31,7 +30,7 @@ export default function RepoTable() {
             </tr>
           </thead>
           <tbody>
-            {repos.map((repo) => <RepoItem key={repo.id} name={repo.name} description={repo.description} date={repo.created_at} topics={repo.topics} />)}
+            {repos.map((repo) => <RepoItem key={repo.id} name={repo.name} description={repo.description} date={repo.created_at} topics={repo.topics} link={repo.url} />)}
           </tbody>
         </table>
       </div>

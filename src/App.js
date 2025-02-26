@@ -1,78 +1,53 @@
 import React from 'react';
 import './App.css';
-import { Link} from 'react-router-dom';
 import Home from './features/home';
 import CurriculumVitae from './features/curriculumVitae'; 
 import Repositories from './features/repositories';
 import ViewRepo from './features/viewRepo';
-import Issues from './features/issueTable';
 import WebsiteApps from './features/websiteApps';
 import MobileApps from './features/mobileApps';
 import ContactUs from './features/contactUs';
+import Header from './components/header';
 import Footer from './components/footer';
 
 export function App() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>  
+      <div>
+        <Header />
       </div> 
       <Home />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
 
 export function CVresume() {
-    return (
+  return (
+    <div>
       <div>
-        <div className="Header">
-          <div className="Logo">
-            <h4>Malebo Sambo</h4>
-          </div>
-          <div>
-            <Link to="/">Home</Link>
-            <Link to="/cv-resume">CV</Link>
-            <Link to="/repos">Repos</Link>
-            <Link to="/issues">Issues</Link>
-            <Link to="/contacts">Contacts</Link>
-          </div>  
-        </div> 
+        <Header /> 
+      </div> 
       <CurriculumVitae />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )                                          
 }
 
-
-
-
 export function Repos() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+      <div>
+        <Header />
       </div>
       <Repositories />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
@@ -80,20 +55,13 @@ export function Repos() {
 export function Web() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+      <div>
+        <Header />
       </div>
       <WebsiteApps />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
@@ -101,20 +69,13 @@ export function Web() {
 export function Apps() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+      <div>
+        <Header />
       </div>
       <MobileApps />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
@@ -122,63 +83,27 @@ export function Apps() {
 export function ViewRepository() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>  
+      <div>
+        <Header /> 
       </div> 
       <ViewRepo />
-      <Footer />
+      <div>
+        <Footer />
+      </div>  
     </div>
   )
 }
-
-export function IssuesTable() {
-  return (
-    <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>  
-      </div> 
-      <Issues />
-      <Footer />
-    </div>
-  )
-}
-
-
+        
 export function Contacts() {
   return (
     <div>
-      <div className="Header">
-        <div className="Logo">
-          <h4>Malebo Sambo</h4>
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/cv-resume">CV</Link>
-          <Link to="/repos">Repos</Link>
-          <Link to="/issues">Issues</Link>
-          <Link to="/contacts">Contacts</Link>
-        </nav>
+      <div>
+        <Header />
       </div>
       <ContactUs />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
