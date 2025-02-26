@@ -43,6 +43,7 @@ export default function Home() {
         <div className="Avatar text-center">
           <img src="./Malebo-Sambo.png" alt="Avatar" className="img-fluid" style={{ borderRadius: 50 }} />
         </div>
+
         <div className="Profile">
           <div className="Personal">
             <div className="Personal_Details">

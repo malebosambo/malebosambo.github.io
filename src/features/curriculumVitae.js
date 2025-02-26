@@ -27,6 +27,19 @@ export default function CurriculumVitae() {
               <a href="www.github.com/sambomalebo"><img src="./GitHub.png" alt="GitHub Icon" className="Icon" /></a>
               <a href="www.twitter.com/lovais000"><img src="./Twitter.png" alt="Twitter Icon" className="Icon" /></a>
             </div>  
+
+      <div>
+        <div>
+          <div className="CV-avatar">
+            <img src="./CVAvatar.jpg" alt="avatar" className="Avatar-Mobile" />
+            <h5>Malebo Sambo</h5>
+            <h6>Software Developer</h6>
+          </div>
+          <div className="CV-email">
+            <img alt="" />
+            <h6>Email</h6>
+            <p>sambo.malebo96@gmail.com</p>
+
           </div>
           <div className="CV_Email">
             <div style={{ display: "flex", flexDisplay: "row", backgroundColor: "grey" }}><img src="Email.png" alt="Email Icon" className="Icon" /><h4 style={{ marginLeft: 10, padding: 10 }}>Email</h4></div>
@@ -75,11 +88,19 @@ export default function CurriculumVitae() {
             </div> 
           </div>
 
+
           <div className="CV_Section2">
             <div className="CV_Avatar">
               <img src="./Malebo-Sambo.png" alt="Avatar" />
               <h1>Malebo Sambo</h1>
               <h3>Software Developer/Engineer</h3>
+
+          <div className="CV-section2">
+            <div className="CV-avatar">
+              <img src="./CVAvatar.jpg" alt="avatar" className="Avatar" />
+              <h5>Malebo Sambo</h5>
+              <h6>Software Developer</h6>
+
             </div>
             <div className="CV_Hardskills">
               <h2>Hard Skills</h2><br />
